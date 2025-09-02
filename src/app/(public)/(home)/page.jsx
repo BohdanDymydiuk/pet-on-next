@@ -1,23 +1,8 @@
 import React from 'react';
-import { TWEETS } from "../../shared/tweets.data";
-import { Tweet } from "./Tweet";
-import TweetForm from './TweetForm';
-import { TITLE_CLASSNAME } from '@/app/constants';
+import Home from './Home';
 
 export const metadata = { title: 'Home' };
 
-const Home = () => {
-  return (
-    <div>
-      <h1 className={TITLE_CLASSNAME}>Home</h1>
-      <TweetForm />
-      <div className="space-y-6">
-        {TWEETS.map(tweet => (
-          <Tweet key={tweet.author} tweet={tweet} />
-        ))}
-      </div>
-    </div>
-  );
-}
+const HomePage = () => <Home />;
 
-export default Home;
+export default HomePage;
