@@ -6,8 +6,8 @@ export const MENU = [
     name: 'Home'
   },
   {
-    href: PAGES.EXPLORE,
-    name: 'Explore'
+    href: PAGES.SHOP,
+    name: 'Shop'
   },
   {
     href: PAGES.PROFILE_FAKE,

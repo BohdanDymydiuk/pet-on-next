@@ -5,7 +5,7 @@ const Layout = ({children}) => {
   return (
     <div className="min-h-screen">
       <Header />
-      <div className="w-full max-w-xl flex justify-center px-4 py-8">{children}</div>
+      <div className="w-full max-w-xl flex justify-center px-4 py-8 mx-auto">{children}</div>
     </div>
   );
 };
